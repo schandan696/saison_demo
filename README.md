@@ -32,9 +32,11 @@ pip install -r requirements.txt
 python app.py
 ```
 ## Assumptions & Disclaimer 
+- For database.ini file please ping me to run this on local
 - Assuming street name should be search by address and location discription not from lognitude and lattiude   
 - I have't added any data vaildiation (Demo)
-- Using Postgres Text search Simalirity and GIS feature it's soetime not that accurate.
+- Using Postgres Text search Simalirity and GIS feature sometime it's not that accurate.
 - Haven't added nGinex or something to proxy pass and open 3000 port so less secure
-- More on the go indexing so beacuse of less dataets
+- More on the go indexing, beacuse of less dataets
 - Performance less than 10ms for all API 
+- Little to no proper error messages
