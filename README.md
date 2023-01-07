@@ -1,5 +1,5 @@
 # Saison Omni Coding
-## _SEACHE a highly optimise seaching app_
+## _SEACHE a highly optimized searching app_
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 SEACHE is a cloud-enabled, Python powered application.
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 python app.py
 ```
 ## Assumptions & Disclaimer 
-- For database.ini file please ping me to run this on local
+- For database.ini file please ping me
 - Assuming street name should be search by address and location discription not from lognitude and lattiude   
 - I have't added any data vaildiation (Demo)
 - Using Postgres Text search Simalirity and GIS feature sometime it's not that accurate.
